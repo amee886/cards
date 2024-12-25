@@ -5,7 +5,7 @@ from faker import Faker
 
 
 FILENAME = "charsheet.svg"
-os.makedirs("cards", mode=0o777, exist_ok=True)
+os.makedirs("card", mode=0o777, exist_ok=True)
 alphabet = {'а': 'а͠',
             'б': 'б̋',
             'в': 'в͒͠',
